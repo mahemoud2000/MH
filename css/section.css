@@ -39,11 +39,25 @@ section .slider h1 {
 
 section .slider .photo {
 
+    /* animation-name: bor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse; */
 }
 section .slider .photo img {
     width: 250px;
-    border-radius: 50px;
-    border-bottom-left-radius: 10px;
+   
+  border: 2px solid #000000;
+  border-image: linear-gradient(to bottom, #0000FF, #FF00FF) 1;
+  border-radius: 50px;
+    border: 2px solid #aaa;
+    animation-name: bor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+
 }
 section .slider .btns {
     background-color: rgba(0, 0, 0, 0.453);
@@ -71,6 +85,63 @@ section .slider .btns .btn {
 section .slider .btns .btn:hover {
     background-color: rgba(255, 255, 255, 0.332);
 }
+/* Animation In Slider Start */
+@keyframes bor {
+    0% {
+        border-color: linear-gradient(to bottom, #0000FF, #FF00FF)1 transparent transparent transparent;
+    }
+    25% {
+        border-color: transparent linear-gradient(to bottom, #0000FF, #FF00FF)1 transparent transparent;
+    }
+    50% {
+        border-color: transparent  transparent linear-gradient(to bottom, #0000FF, #FF00FF)1 transparent;
+    }
+    100% {
+        border-color: transparent  transparent  transparent linear-gradient(to bottom, #0000FF, #FF00FF)1;
+    }
+}
+/* Animation In Slider End */
 /* Slider End */
+/* About Start */
+section .about {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../images/logo-dark.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: scroll;
+    padding: 10%;
+}
+section .about .text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px 10px;
+    padding: 30px;
+}
+section .about .text h2 {
 
+}
+section .about .text p {
+
+}
+section .about .pho {
+
+}
+section .about .pho img {
+    max-width: 250px;
+    border: 2px solid rgb(193, 125, 125);
+    border-radius: 10px;
+}
+/* Media In About Start  */
+@media(max-width: 951px){
+    section .about {
+        flex-wrap: wrap;
+    }
+}
+/* Media In About End  */
+/* About End */
 /* Section End */
