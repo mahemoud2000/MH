@@ -27,7 +27,7 @@ section .contact form {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     transform: skew(15deg);
-    height: 75vh;
+    height: 70vh;
 
 }
 section .contact form:hover {
@@ -97,7 +97,7 @@ section .contact .sub-reset input:hover {
     align-items: center;
     justify-content: center;
     border: 2px solid black;
-    height: 75vh;
+    height: 70vh;
     row-gap: 50px;
     transform: skew(15deg);
     border-top-right-radius: 20px;
