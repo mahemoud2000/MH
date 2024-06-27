@@ -36,7 +36,36 @@ section .slider h1 {
     width: 250px;
     text-align: center;
 }
+.cv a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(219, 207, 207);
+    padding: 20px;
+    border-radius: 50%;
+    animation-name: cv;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
 
+}
+/* Animation Cv Start */
+@keyframes cv {
+    0%{
+        border: 2px solid red;
+    }
+    25% {
+        border: 5px solid black;
+    }
+    50% {
+        border: 2px solid green;
+    }
+    100% {
+        border-color: transparent red transparent black;
+    }
+}
+/* Animation Cv End */
 section .slider .photo {
 
     /* animation-name: bor;
@@ -128,13 +157,26 @@ section .about .text h2 {
 section .about .text p {
 
 }
+section .about .text a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #aaa;
+    padding: 5px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition:  0.s5;
+}
+section .about .text a:hover {
+    background-color: #7a7777;
+}
 section .about .pho {
 
 }
 section .about .pho img {
     width: 50vw;
-        border: 2px solid rgb(158 158 158);
-
+    border: 2px solid rgb(158 158 158);
     border-radius: 10px;
 }
 /* Media In About Start  */
