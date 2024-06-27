@@ -132,7 +132,7 @@ section .about .pho {
 
 }
 section .about .pho img {
-    max-width: 250px;
+    width: 50vw;
     border: 2px solid rgb(193, 125, 125);
     border-radius: 10px;
 }
