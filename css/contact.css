@@ -122,6 +122,8 @@ section .contact .sub-reset input:hover {
 .number {
     color: white;
     text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
 }
 .social h3 , .call-links , .social-links {
     z-index: 5;
