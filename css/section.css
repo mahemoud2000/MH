@@ -133,7 +133,8 @@ section .about .pho {
 }
 section .about .pho img {
     width: 50vw;
-    border: 2px solid rgb(193, 125, 125);
+        border: 2px solid rgb(158 158 158);
+
     border-radius: 10px;
 }
 /* Media In About Start  */
