@@ -5,9 +5,12 @@ header {
     justify-content: space-around;
     align-items: center;
     margin: 0 20px;
-    background-color: rgba(199, 199, 199, 0.207);
+    background-color: #000;
     padding: 10px;
     border-radius: 10px;
+    position:fixed;
+    width: 95%;
+    z-index: 5;
 }
 header img {
     width: 50px;
@@ -101,7 +104,7 @@ header .main-list .list .ul-small li a {
 
 header .ch-color {
     width: 120px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.406);
     border-radius: 5px;
     display: flex;
     justify-content: space-around;
