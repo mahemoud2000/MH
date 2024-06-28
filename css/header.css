@@ -4,12 +4,12 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 20px;
+    /* margin: 0 20px; */
     background-color: #000;
     padding: 10px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     position:fixed;
-    width: 95%;
+    width: 100%;
     z-index: 5555;
 }
 header img {
