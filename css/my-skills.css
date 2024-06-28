@@ -13,24 +13,29 @@
 
 .skills h2 {
     font-weight: bold;
-    color: white;
+    color: black;
+    background-color: #908e8e;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-.skills ol {
+.skills ul {
     display: flex;
     width: 95vw;
     padding: 2vw;
     gap: 20px;
     justify-content: space-around;
     align-items: center;
+    list-style: none;
 }
 
-.skills ol li {
+.skills ul li {
     color: white;
     display: flex;
     width: 150px;
     height: 150px;
-    border: 2px solid white;
+    border: 2px solid rgb(135, 134, 134);
+
     flex-direction: column;
     gap: 10px 50px;
     justify-content: center;
@@ -40,27 +45,25 @@
     position: relative;
 }
 
-/* input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance:none;
-    appearance: none;
-    width: 15px;
-    height: 15px;
-    background: rgb(0, 0, 0);
+.skills ul li:hover {
     cursor: pointer;
-} */
-
-.skills ol li[type="range"] {
-    color: white;
 }
 
-.skills ol li:hover {
-    cursor: pointer;
-    padding: 30px;
+.skills ul li h3 {
+    color: black;
+    background-color: #908e8e;
+    padding: 10px;
+    border-radius: 10px;
 }
-
-.skills ol li h3 {}
-
-.skills ol li i {}
+.skills ul li h4 {
+    background-color: #908e8e;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgba(0, 128, 0, 0.566);
+}
+.skills ul li i {
+    font-size: 50px;
+    }
 
 .bc {
     position: absolute;
@@ -75,11 +78,11 @@
 
 }
 
-.skills ol li:hover .bc {
+.skills ul li:hover .bc {
     height: 100% !important;
 }
 
-.skills ol li img {
+.skills ul li img {
     width: 50px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -87,9 +90,8 @@
 
 /* Screen Mobile Start */
 @media (max-width: 951px) {
-    .skills ol {
+    .skills ul {
         flex-wrap: wrap;
-        /* flex-direction: column; */
     }
 }
 
