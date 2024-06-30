@@ -2,7 +2,7 @@
  .projects {
     width: 100%;
     padding: 5%;
-    background-color: black;
+    background-color: transparent;
     display: flex;
     justify-content: space-around;
     align-items: center;
