@@ -15,42 +15,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
 </head>
 
 <body id="body">
     <!-- Header Start -->
     <header>
-
-        <img src="images/logo-white.png" alt="" class="web-logo"
-            onclick="document.getElementById('web-logo').src='images/logo-dark.png'" id="web-logo">
-        <ul class="ul-large">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Skills</a></li>
-        </ul>
-
-        <div class="main-list">
-            <div class="list">
-                <div class="option"></div>
-                <div class="option ch"></div>
-                <div class="option"></div>
-                <ul class="ul-small">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Skills</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="ch-color" id="color">
-            <div class="black on" onclick="black();"></div>
-            <div class="gradient on" onclick="gradient();"></div>
-            <div class="white on" onclick="white();"></div>
-        </div>
-
+        <img src="images/logo-white.png" alt="" class="web-logo" onclick="document.getElementById('web-logo').src='images/logo-dark.png'" id="web-logo">
+        <ul class="ul-large" id="ul-large"></ul>
+        <div class="main-list" id="main-lest"></div>
+        <div class="ch-color" id="color"></div>
     </header>
     <!-- Header End -->
     <!-- Section Start -->
@@ -58,58 +31,35 @@
         <a class="down" href="#footer"><img src="icones/IcBaselineArrowCircleDown.png" alt=""></a>
         <a class="up" href="#body"><img src="icones/IcBaselineArrowCircleUp.png" alt=""></a>
         <!-- Slider Start -->
-        <section class="slider">
-            <h1 id="h" class="h">I'm Mahmoud Hamed!</h1>
-            <div class="photo">
-                <img src="images/myphoto.jpg" alt="Sorry">
-            </div>
-            <div class="btns">
-                <div class="btn-one btn"><a href="">Protfolio</a></div>
-                <div class="btn-two btn"><a href="">About me</a></div>
-            </div>
-            <div class="cv">
-                <a href="#" download="true">CV</a>
-            </div>
-        </section>
+        <section class="slider" id="slider"></section>
         <!-- Slider End -->
+
         <!-- About Start -->
-        <section class="about">
-            <div class="text">
-                <h2>About Me</h2>
-                <p>My name Mahmoud Hamed Frontend Developer!My name Mahmoud Hamed Frontend Developer!My name Mahmoud
-                    Hamed Frontend Developer!My name Mahmoud Hamed Frontend Developer!My name Mahmoud Hamed</p>
-                <a href="#">Let's work together</a>
-            </div>
-            <div class="pho">
-                <img src="images/myphoto.jpg" alt="sorry">
-            </div>
-        </section>
+        <section class="about" id="about"></section>
         <!-- About End -->
 
         <!-- Skills Start -->
-        <section class="skills" id="all-skills">
-        </section>
+        <section class="skills" id="all-skills"></section>
         <!-- Skills End -->
 
          <!-- Prijects Start  -->
-         <section class="projects" id="all-projects">
-         </section>
+         <section class="projects" id="all-projects"></section>
          <!-- Prijects End  -->
         <!-- Contact Start -->
-        <section class="contact" id="contact">
-        </section>
+        <section class="contact" id="contact"></section>
         <!-- Contact End -->
     </section>
     <!-- Section End -->
     <!-- Footer Start -->
-    <footer id="footer">
-        <p>&copy;2024 By Mahmoud Hamed</p>
-    </footer>
+    <footer id="footer"></footer>
     <!-- Footer End -->
     <script src="js/script.js"></script>
     <script src="js/projects.js"></script>
     <script src="js/skills.js"></script>
     <script src="js/form.js"></script>
+    <script src="js/my-section.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
 </body>
 
 </html>
