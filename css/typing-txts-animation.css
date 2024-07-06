@@ -20,9 +20,11 @@ outline: 2px solid red !important;
     line-height: 90px;
     /* height: 90px; */
     overflow: hidden;
+   
 }
 .dynamic-txts li {
-    color: #FC6D6D;
+/*     color: #FC6D6D; */
+     color: white;
     list-style: none;
     font-size: 60px;
     font-weight: 500;
