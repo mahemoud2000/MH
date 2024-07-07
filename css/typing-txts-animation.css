@@ -36,6 +36,7 @@ outline: 2px solid red !important;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #FC6D6D;
 }
 .dynamic-txts li span::after {
     content: "";
