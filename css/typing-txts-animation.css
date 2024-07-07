@@ -23,8 +23,7 @@ outline: 2px solid red !important;
    
 }
 .dynamic-txts li {
-/*     color: #FC6D6D; */
-     color: white;
+    color: #FC6D6D;
     list-style: none;
     font-size: 60px;
     font-weight: 500;
@@ -43,7 +42,6 @@ outline: 2px solid red !important;
     position: absolute;
     height: 100%;
     width: 100%;
-    border-left: 2px solid #FC6D6D;
     border-left: 2px solid #FC6D6D;
     background-color: #000;
     /* background-color: #343F4F; */
