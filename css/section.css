@@ -25,6 +25,7 @@ section .slider {
     flex-direction: column;
     gap: 50px;
     padding: 80px;
+    background-color:black;
 }
 section .slider h1 {
     color: white;
