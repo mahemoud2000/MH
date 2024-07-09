@@ -1,3 +1,4 @@
+
 let colorWhite = "white";
 let colorBlack = "black";
 function white() {
