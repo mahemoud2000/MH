@@ -1,6 +1,5 @@
 let mySection = `
- 
-            <div class="wrapper edit-animation">
+        <div class="wrapper edit-animation">
         <div class="static-txt">I'm a Mahmoud Hamed</div>
         <ul class="dynamic-txts">
             <li><span>Frontend Dev</span></li>
