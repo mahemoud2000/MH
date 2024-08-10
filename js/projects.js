@@ -11,7 +11,7 @@ let projects =[`
     </div>`,
     `
     <div class="project">
-   <a href="https://p-fresh.github.io/P-fresh/" class="btn-project">view</a>
+   <a href="https://p-fresh.github.io/P-fresh/index.html" class="btn-project">view</a>
     <img src="images/P-fresh.png" alt="">
     </div>`,
     `
