@@ -2,7 +2,7 @@
 /* Header Start */
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     /* margin: 0 20px; */
     background-color: #000;
@@ -149,7 +149,8 @@ header .ch-color .white {
 /* Media Start In Header */
 @media (max-width: 951px) {
     header .ul-large {
-        display: none;
+        /* display: none; */
+        visibility: hidden;
     }
 
     header .main-list  {
