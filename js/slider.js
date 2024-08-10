@@ -40,7 +40,7 @@ let aboutMe = `
                 <h2>About Me</h2>
                 <p>My name Mahmoud Hamed Frontend Developer!My name Mahmoud Hamed Frontend Developer!My name Mahmoud
                     Hamed Frontend Developer!My name Mahmoud Hamed Frontend Developer!My name Mahmoud Hamed</p>
-                <a href="#form">Let's work together</a>
+                <a href="#contact">Let's work together</a>
             </div>
             <div class="pho">
                 <img src="images/protfolio.png" alt="sorry" id="photo-about">
