@@ -38,8 +38,8 @@ function backTwo() {
 let aboutMe = `
 <div class="text">
                 <h2>About Me</h2>
-                <p>My name Mahmoud Hamed Frontend Developer!My name Mahmoud Hamed Frontend Developer!My name Mahmoud
-                    Hamed Frontend Developer!My name Mahmoud Hamed Frontend Developer!My name Mahmoud Hamed</p>
+                <p>Front-End Developer
+Highly skilled in building user-friendly interfaces using modern web technologies such as HTML, CSS, and JavaScript. Successfully designed and implemented effective paid advertising campaigns, improving user experience and increasing customer engagement. Fast learner with a strong ability to analyze challenges and make independent decisions. Continuously staying updated with the latest tech advancements and applying them to enhance performance and efficiency.</p>
                 <a href="#contact">Let's work together</a>
             </div>
             <div class="pho">
